@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.13)
+project(stl2)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(stl2 vector_test.cpp vector.hpp)
+add_executable(list list_test.cpp list.hpp)
+add_executable(deque deque_test.cpp deque.hpp)
+add_executable(stack stack_test.cpp stack.hpp)
+add_executable(queue queue_test.cpp queue.hpp)
+add_executable(heap algorithm.hpp heap_test.cpp)
+add_executable(priority_queue priority_queue.hpp priority_queue_test.cpp)
+add_executable(rb rb_tree.hpp rb_tree_test.cpp)
+#add_executable(rb2 rb_tree2.hpp rb_tree2_test.cpp Detail/rb_tree2.impl.hpp)
+add_executable(test test.cpp test.hpp)
+add_executable(set set_test.cpp set.hpp)
+add_executable(map map.hpp map_test.cpp utility.hpp)
