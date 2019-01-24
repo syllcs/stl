@@ -7,6 +7,7 @@
 #include <iterator>
 #include <memory>
 #include <algorithm>
+#include <assert.h>
 
 template<class T, class Alloc = std::allocator<T>>
 class vector{
